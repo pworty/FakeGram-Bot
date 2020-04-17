@@ -35,6 +35,7 @@ def createchat(update, context):
 
 
 def change_param(update, context):
+    print(context.user_data)
     return update.message.text
 
 
@@ -44,8 +45,18 @@ def time(update, context):
 
 
 def battery(update, context):
-    context.user_data['Battery'] = update.message.text
-    return 'Change param'
+    try:
+        if 0 < int(update.message.text) <= 100:
+            old = context.user_data.get('Battery', 'None')
+            new = update.message.text + '%'
+            createchat_keyboard[0][1] = f'Battery - {new}'
+            update.message.reply_text(f'Battery updated! ({old} -> {new})',
+                                      reply_markup=createchat_markup)
+            context.user_data['Battery'] = new
+            return 'Change param'
+    except ValueError:
+        update.message.reply_text('Enter battery percentage from 1 to 100 (no % sign)')
+        return 'Battery'
 
 
 def background(update, context):
