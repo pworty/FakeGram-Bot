@@ -4,8 +4,8 @@ from telegram.ext import Updater, MessageHandler, Filters
 from telegram.ext import ConversationHandler, CommandHandler
 from telegram import ReplyKeyboardRemove
 
-from bot_data import *
-from Keyboards import *
+from bot_data import TOKEN, PROXY
+from keyboards import *
 
 # Enable logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -33,11 +33,11 @@ def createchat(update, context):
                               'screenshot\n\n'
                               '/cancel to stop screenshot creation. Changes will not be saved!',
                               reply_markup=createchat_markup)
-    context.user_data[TIME] = 'Default'
-    context.user_data[BATTERY] = 'Default'
+    context.user_data[TIME] = '09:41'
+    context.user_data[BATTERY] = '100%'
     context.user_data[BACKGROUND] = 'Default'
-    context.user_data[NAME] = 'Default'
-    context.user_data[LAST_ONLINE] = 'Default'
+    context.user_data[NAME] = 'Lucinda Lane'
+    context.user_data[LAST_ONLINE] = 'last seen 5 minutes ago'
     context.user_data[PROFILE_PIC] = 'Default'
     return CHANGE_PARAM
 

@@ -19,13 +19,13 @@ time_keyboard = [['1', '2', '3'],
                  ['7', '8', '9'],
                  [':', '0', ':']]
 
-last_seen_keyboard = [[InlineKeyboardButton('Online')],
-                      [InlineKeyboardButton('Last seen recently')],
-                      [InlineKeyboardButton('Last seen M minutes ago')],
-                      [InlineKeyboardButton('Last seen H hours ago')],
-                      [InlineKeyboardButton('Last seen yesterday at hh:mm')],
-                      [InlineKeyboardButton('Last seen dd.mm.yy')],
-                      [InlineKeyboardButton('Last seen a long time ago')]]
+last_seen_keyboard = [[InlineKeyboardButton('online')],
+                      [InlineKeyboardButton('last seen recently')],
+                      [InlineKeyboardButton('last seen M minutes ago')],
+                      [InlineKeyboardButton('last seen H hours ago')],
+                      [InlineKeyboardButton('last seen yesterday at hh:mm')],
+                      [InlineKeyboardButton('last seen dd.mm.yy')],
+                      [InlineKeyboardButton('last seen a long time ago')]]
 
 # Keyboard markups
 menu_markup = ReplyKeyboardMarkup(menu_keyboard, one_time_keyboard=False)
