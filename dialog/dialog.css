@@ -1,4 +1,4 @@
-.dialog {
+ .dialog {
   width               : 100%;
   min-width           : 375px;
   height              : 100vh;
@@ -9,7 +9,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color    : rgba(255, 255, 255, 1.0);
-  opacity             : 1.0;
 }
 a {
   text-decoration     : none;
@@ -28,37 +27,22 @@ div {
 }
 .dialog .telegrambackground {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : 667px;
   width               : 375px;
   position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegrambackground .background {
   background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 0px;
   height              : 667px;
   width               : 375px;
   position            : relative;
-  margin              : 0;
-  left                : 0px;
   overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegrambackground .background .mask {
   background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 0px;
   height              : 667px;
   width               : 375px;
   position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegrambackground .background .a51edc046eb80046ee4755ee71d0f19ca {
   background-color    : rgba(255,255,255,0.0);
@@ -66,43 +50,43 @@ div {
   height              : 888px;
   width               : 567px;
   position            : absolute;
-  margin              : 0;
   left                : -192px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegramsentmessagecopy {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 256px;
+  top                 : 282px;
   height              : 212px;
   width               : 314px;
   position            : absolute;
-  margin              : 0;
-  left                : 5px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+  left                : 10px;
 }
 .dialog .telegramsentmessagecopy .background {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : 212px;
   width               : 314px;
   position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+}
+.dialog .telegramsentmessagecopy .background .main {
+  background-color    : rgba(255, 255, 255, 1.0);
+  height              : 212px;
+  box-sizing          : border-box;
+  width               : 309px;
+  position            : absolute;
+  border-radius       : 16px;
+}
+.dialog .telegramsentmessagecopy .background .part {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 195px;
+  height              : 17px;
+  width               : 27px;
+  position            : absolute;
+  left                : -5px;
 }
 .dialog .telegramsentmessagecopy .time {
   background-color    : rgba(255,255,255,0.0);
   top                 : 194px;
-  height              : auto;
-  width               : auto;
   position            : absolute;
-  margin              : 0;
   left                : 274px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
   font-family         : "Helvetica", Helvetica, Arial, serif;
   font-size           : 11.0px;
   color               : rgba(154, 154, 154, 1.0);
@@ -113,57 +97,36 @@ div {
 .dialog .telegramsentmessagecopy .message {
   background-color    : rgba(255,255,255,0.0);
   top                 : 6px;
-  height              : auto;
   width               : 284px;
   position            : absolute;
-  margin              : 0;
   left                : 18px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
   font-family         : "Helvetica", Helvetica, Arial, serif;
   font-size           : 17.0px;
-  color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
   letter-spacing      : -0.45px;
-  line-height         : 20.0px;
+  line-height         : 22.0px;
 }
 .dialog .telegramsentmessage {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 474px;
+  top                 : 500px;
   height              : 33px;
   width               : 135px;
   position            : absolute;
-  margin              : 0;
   left                : 236px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegramsentmessage .background {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : 33px;
   width               : 135px;
   position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegramsentmessage .background .main {
   background-color    : rgba(225, 255, 199, 1.0);
-  top                 : 0px;
   height              : 33px;
   box-sizing          : border-box;
   width               : 130px;
   position            : absolute;
-  margin              : 0;
-  left                : 0px;
   border-radius       : 16px;
-  border-style        : solid;
-  border-width        : 0px;
-  border-color        : rgba(186, 213, 195, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegramsentmessage .background .part {
   background-color    : rgba(255,255,255,0.0);
@@ -171,21 +134,13 @@ div {
   height              : 17px;
   width               : 27px;
   position            : absolute;
-  margin              : 0;
   left                : 108px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegramsentmessage .time {
   background-color    : rgba(255,255,255,0.0);
   top                 : 15px;
-  height              : auto;
-  width               : auto;
   position            : absolute;
-  margin              : 0;
   left                : 78px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
   font-family         : "Helvetica", Helvetica, Arial, serif;
   font-size           : 11.0px;
   color               : rgba(44, 163, 47, 1.0);
@@ -199,69 +154,43 @@ div {
   height              : 10px;
   width               : 16px;
   position            : absolute;
-  margin              : 0;
   left                : 108px;
   overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegramsentmessage .telegrammessagestatusread .background1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : 10px;
   width               : 16px;
   position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegramsentmessage .telegrammessagestatusread .messagestatus {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : 9px;
   width               : 15px;
   position            : absolute;
-  margin              : 0;
   left                : -1px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegramsentmessage .telegrammessagestatusread .messagestatus .path3 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : 9px;
   width               : 12px;
   position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegramsentmessage .telegrammessagestatusread .messagestatus .path3copy {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : 9px;
   width               : 10px;
   position            : absolute;
-  margin              : 0;
   left                : 6px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegramsentmessage .message {
   background-color    : rgba(255,255,255,0.0);
   top                 : 5px;
-  height              : auto;
   width               : 119px;
   position            : absolute;
-  margin              : 0;
   left                : 8px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
   font-family         : "Helvetica", Helvetica, Arial, serif;
   font-size           : 17.0px;
-  color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
   letter-spacing      : -0.45px;
   line-height         : 22.0px;
@@ -272,37 +201,21 @@ div {
   height              : 77px;
   width               : 286px;
   position            : absolute;
-  margin              : 0;
   left                : 85px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegramsentmessage1 .background {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : 77px;
   width               : 286px;
   position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegramsentmessage1 .background .main {
   background-color    : rgba(225, 255, 199, 1.0);
-  top                 : 0px;
   height              : 77px;
   box-sizing          : border-box;
   width               : 281px;
   position            : absolute;
-  margin              : 0;
-  left                : 0px;
   border-radius       : 16px;
-  border-style        : solid;
-  border-width        : 0px;
-  border-color        : rgba(186, 213, 195, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegramsentmessage1 .background .part {
   background-color    : rgba(255,255,255,0.0);
@@ -310,21 +223,13 @@ div {
   height              : 17px;
   width               : 27px;
   position            : absolute;
-  margin              : 0;
   left                : 259px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegramsentmessage1 .time {
   background-color    : rgba(255,255,255,0.0);
   top                 : 59px;
-  height              : auto;
-  width               : auto;
   position            : absolute;
-  margin              : 0;
   left                : 229px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
   font-family         : "Helvetica", Helvetica, Arial, serif;
   font-size           : 11.0px;
   color               : rgba(44, 163, 47, 1.0);
@@ -344,94 +249,58 @@ div {
   height              : 10px;
   width               : 16px;
   position            : absolute;
-  margin              : 0;
   left                : 259px;
   overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegramsentmessage1 .telegrammessagestatusread .background1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : 10px;
   width               : 16px;
   position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegramsentmessage1 .telegrammessagestatusread .messagestatus {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : 9px;
   width               : 15px;
   position            : absolute;
-  margin              : 0;
   left                : -1px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegramsentmessage1 .telegrammessagestatusread .messagestatus .path3 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : 9px;
   width               : 12px;
   position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegramsentmessage1 .telegrammessagestatusread .messagestatus .path3copy {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : 9px;
   width               : 10px;
   position            : absolute;
-  margin              : 0;
   left                : 6px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegramsentmessage1 .message {
   background-color    : rgba(255,255,255,0.0);
   top                 : 5px;
-  height              : auto;
   width               : 260px;
   position            : absolute;
-  margin              : 0;
   left                : 8px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
   font-family         : "Helvetica", Helvetica, Arial, serif;
   font-size           : 17.0px;
-  color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
   letter-spacing      : -0.45px;
   line-height         : 22.0px;
 }
 .dialog .navigationbarhierarchical {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : 65px;
   width               : 375px;
   position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .navigationbarhierarchical .background {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : 65px;
   width               : 375px;
   position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .navigationbarhierarchical .rightaccessory {
   background-color    : rgba(255,255,255,0.0);
@@ -439,22 +308,14 @@ div {
   height              : 44px;
   width               : 170px;
   position            : absolute;
-  margin              : 0;
   left                : 205px;
   overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .navigationbarhierarchical .rightaccessory .background1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : 44px;
   width               : 170px;
   position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .navigationbarhierarchical .rightaccessory .avatar {
   background-color    : rgba(255,255,255,0.0);
@@ -462,10 +323,7 @@ div {
   height              : 37px;
   width               : 37px;
   position            : absolute;
-  margin              : 0;
   left                : 129px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .navigationbarhierarchical .title {
   background-color    : rgba(255,255,255,0.0);
@@ -473,33 +331,20 @@ div {
   height              : 43px;
   width               : 231px;
   position            : absolute;
-  margin              : 0;
   left                : 72px;
   overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .navigationbarhierarchical .title .background1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : 43px;
   width               : 231px;
   position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .navigationbarhierarchical .title .online {
   background-color    : rgba(255,255,255,0.0);
   top                 : 23px;
-  height              : auto;
-  width               : auto;
   position            : absolute;
-  margin              : 0;
   left                : 38px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
   font-family         : "Helvetica", Helvetica, Arial, serif;
   font-size           : 13.0px;
   color               : rgba(120, 120, 120, 1.0);
@@ -510,16 +355,10 @@ div {
 .dialog .navigationbarhierarchical .title .title1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
+  position            : static;
   left                : 66px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
   font-family         : "Helvetica", Helvetica, Arial, serif;
   font-size           : 17.0px;
-  color               : rgba(0, 0, 0, 1.0);
   text-align          : center;
   letter-spacing      : -0.41px;
   line-height         : 22.0px;
@@ -530,32 +369,18 @@ div {
   height              : 44px;
   width               : 180px;
   position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .navigationbarhierarchical .leftaccessory .group2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : 44px;
   width               : 180px;
   position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .navigationbarhierarchical .leftaccessory .group2 .rectanglecopy {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : 44px;
   width               : 180px;
   position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .navigationbarhierarchical .leftaccessory .group2 .backbuttoncopy {
   background-color    : rgba(255,255,255,0.0);
@@ -563,21 +388,12 @@ div {
   height              : 23px;
   width               : 62px;
   position            : absolute;
-  margin              : 0;
   left                : 7px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .navigationbarhierarchical .leftaccessory .group2 .backbuttoncopy .u21b3label {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : auto;
   position            : absolute;
-  margin              : 0;
   left                : 19px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
   font-family         : "Helvetica", Helvetica, Arial, serif;
   font-size           : 17.0px;
   color               : rgba(0, 122, 255, 1.0);
@@ -591,33 +407,20 @@ div {
   height              : 21px;
   width               : 13px;
   position            : absolute;
-  margin              : 0;
   left                : 1px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .statusbar {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : 20px;
   width               : 375px;
   position            : absolute;
-  margin              : 0;
-  left                : 0px;
   overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .statusbar .background {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : 20px;
   width               : 375px;
   position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .statusbar .rightdetail {
   background-color    : rgba(255,255,255,0.0);
@@ -625,32 +428,21 @@ div {
   height              : 15px;
   width               : 69px;
   position            : absolute;
-  margin              : 0;
   left                : 302px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .statusbar .rightdetail .battery {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : 15px;
   width               : 61px;
   position            : absolute;
-  margin              : 0;
   left                : 8px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .statusbar .rightdetail .battery .a100 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
-  height              : auto;
   width               : 33px;
-  position            : absolute;
-  margin              : 0;
+  position            : static;
   left                : -2px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
   font-family         : "Helvetica", Helvetica, Arial, serif;
   font-size           : 12.0px;
   color               : rgba(3, 3, 3, 1.0);
@@ -663,20 +455,13 @@ div {
   height              : 11px;
   width               : 25px;
   position            : absolute;
-  margin              : 0;
   left                : 36px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .statusbar .rightdetail .battery .battery1 .rectangle3 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : 11px;
   width               : 22px;
   position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
   opacity             : 0.4;
 }
 .dialog .statusbar .rightdetail .battery .battery1 .combinedshape {
@@ -685,10 +470,7 @@ div {
   height              : 4px;
   width               : 2px;
   position            : absolute;
-  margin              : 0;
   left                : 23px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .statusbar .rightdetail .battery .battery1 .rectanglecopy4 {
   background-color    : rgba(0, 0, 0, 1.0);
@@ -696,33 +478,20 @@ div {
   height              : 7px;
   width               : 18px;
   position            : absolute;
-  margin              : 0;
   left                : 2px;
   border-radius       : 1px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .statusbar .rightdetail .bluetooth {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : 14px;
   width               : 8px;
   position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .statusbar .time {
   background-color    : rgba(255,255,255,0.0);
   top                 : 4px;
-  height              : auto;
-  width               : auto;
   position            : absolute;
-  margin              : 0;
-  left                : 163px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
+  left                : 173px;
   font-family         : "Helvetica", Helvetica, Arial, serif;
   font-size           : 12.0px;
   color               : rgba(3, 3, 3, 1.0);
@@ -735,10 +504,7 @@ div {
   height              : 10px;
   width               : 32px;
   position            : absolute;
-  margin              : 0;
   left                : 7px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .statusbar .leftdetail .wifi {
   background-color    : rgba(255,255,255,0.0);
@@ -746,21 +512,13 @@ div {
   height              : 9px;
   width               : 13px;
   position            : absolute;
-  margin              : 0;
   left                : 19px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .statusbar .leftdetail .mobilesignal {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : 10px;
   width               : 15px;
   position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegraminputbar {
   background-color    : rgba(255,255,255,0.0);
@@ -768,21 +526,12 @@ div {
   height              : 45px;
   width               : 375px;
   position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegraminputbar .background {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : 45px;
   width               : 375px;
   position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegraminputbar .rectangle2 {
   background-color    : rgba(255, 255, 255, 1.0);
@@ -791,14 +540,11 @@ div {
   box-sizing          : border-box;
   width               : 285px;
   position            : absolute;
-  margin              : 0;
   left                : 45px;
   border-radius       : 16px;
   border-style        : solid;
   border-width        : 1px;
   border-color        : rgba(217, 220, 223, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegraminputbar .telegramiconmicrophone {
   background-color    : rgba(255,255,255,0.0);
@@ -806,37 +552,25 @@ div {
   height              : 26px;
   width               : 18px;
   position            : absolute;
-  margin              : 0;
   left                : 343px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegraminputbar .telegramiconmicrophone .telegramiconmicrophone1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : 26px;
   width               : 18px;
   position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegraminputbar .telegramiconmicrophone .telegramiconmicrophone1 .rectangle5 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : 17px;
   box-sizing          : border-box;
   width               : 10px;
   position            : absolute;
-  margin              : 0;
   left                : 4px;
   border-radius       : 5px;
   border-style        : solid;
   border-width        : 1px;
   border-color        : rgba(133, 142, 153, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegraminputbar .telegramiconmicrophone .telegramiconmicrophone1 .oval3 {
   background-color    : rgba(255,255,255,0.0);
@@ -844,10 +578,8 @@ div {
   height              : 18px;
   width               : 9px;
   position            : absolute;
-  margin              : 0;
   left                : 5px;
   transform           : rotate(90deg);
-  opacity             : 1.0;
 }
 .dialog .telegraminputbar .telegramiconmicrophone .telegramiconmicrophone1 .rectangle6 {
   background-color    : rgba(255,255,255,0.0);
@@ -856,13 +588,10 @@ div {
   box-sizing          : border-box;
   width               : 2px;
   position            : absolute;
-  margin              : 0;
   left                : 8px;
   border-style        : solid;
   border-width        : 1px;
   border-color        : rgba(133, 142, 153, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegraminputbar .telegramstickers {
   background-color    : rgba(255,255,255,0.0);
@@ -870,32 +599,19 @@ div {
   height              : 21px;
   width               : 21px;
   position            : absolute;
-  margin              : 0;
   left                : 299px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegraminputbar .telegramstickers .stickers {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : 21px;
   width               : 21px;
   position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegraminputbar .telegramstickers .stickers .oval {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : 21px;
   width               : 21px;
   position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegraminputbar .telegramstickers .stickers .path4 {
   background-color    : rgba(255,255,255,0.0);
@@ -903,10 +619,7 @@ div {
   height              : 12px;
   width               : 12px;
   position            : absolute;
-  margin              : 0;
   left                : 8px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegraminputbar .telegramattachement {
   background-color    : rgba(255,255,255,0.0);
@@ -914,22 +627,14 @@ div {
   height              : 23px;
   width               : 21px;
   position            : absolute;
-  margin              : 0;
   left                : 11px;
   overflow            : hidden;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegraminputbar .telegramattachement .background1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : 23px;
   width               : 21px;
   position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegraminputbar .telegramattachement .telegramattachement1 {
   background-color    : rgba(255,255,255,0.0);
@@ -937,10 +642,6 @@ div {
   height              : 25px;
   width               : 22px;
   position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegramlastmessagedate {
   background-color    : rgba(255,255,255,0.0);
@@ -948,44 +649,27 @@ div {
   height              : 20px;
   width               : 75px;
   position            : absolute;
-  margin              : 0;
   left                : 150px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegramlastmessagedate .telegramlastmessagedate1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : 20px;
   width               : 75px;
   position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegramlastmessagedate .telegramlastmessagedate1 .background {
   background-color    : rgba(133, 146, 163, 1.0);
-  top                 : 0px;
   height              : 20px;
   width               : 75px;
   position            : absolute;
-  margin              : 0;
-  left                : 0px;
   border-radius       : 10px;
-  transform           : rotate(0deg);
   opacity             : 0.44;
 }
-.dialog .telegramlastmessagedate .telegramlastmessagedate1 .date {
+.dialog  .telegramlastmessagedate1 .date {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
-  height              : auto;
-  width               : auto;
   position            : absolute;
-  margin              : 0;
   left                : 9px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
   font-family         : "Helvetica", Helvetica, Arial, serif;
   font-size           : 13.0px;
   color               : rgba(255, 255, 255, 1.0);
@@ -1005,44 +689,27 @@ div {
   height              : 20px;
   width               : 75px;
   position            : absolute;
-  margin              : 0;
   left                : 150px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegramlastmessagedatecopy .telegramlastmessagedate1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
   height              : 20px;
   width               : 75px;
   position            : relative;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
 }
 .dialog .telegramlastmessagedatecopy .telegramlastmessagedate1 .background {
   background-color    : rgba(133, 146, 163, 1.0);
-  top                 : 0px;
   height              : 20px;
   width               : 75px;
   position            : absolute;
-  margin              : 0;
-  left                : 0px;
   border-radius       : 10px;
-  transform           : rotate(0deg);
   opacity             : 0.44;
 }
 .dialog .telegramlastmessagedatecopy .telegramlastmessagedate1 .date {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
-  height              : auto;
-  width               : auto;
   position            : absolute;
-  margin              : 0;
   left                : 12px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
   font-family         : "Helvetica", Helvetica, Arial, serif;
   font-size           : 13.0px;
   color               : rgba(255, 255, 255, 1.0);
