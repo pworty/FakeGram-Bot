@@ -1,0 +1,89 @@
+.dialog .telegramsentmessage$i {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(622px - $total_lines * var(--message-line-height) - $i * (var(--message-double-padding) + 6px));
+  height              : calc($lines * var(--message-line-height) + var(--message-double-padding));
+  width               : 286px;
+  position            : absolute;
+  left                : 85px;
+}
+.dialog .telegramsentmessage$i .background {
+  background-color    : rgba(255,255,255,0.0);
+  height              : calc($lines * var(--message-line-height) + var(--message-double-padding));
+  width               : 286px;
+  position            : absolute;
+}
+.dialog .telegramsentmessage$i .background .main {
+  background-color    : rgba(225, 255, 199, 1.0);
+  height              : calc($lines * var(--message-line-height) + var(--message-double-padding));
+  box-sizing          : border-box;
+  width               : 281px;
+  position            : absolute;
+  border-radius       : 16px;
+}
+.dialog .telegramsentmessage$i .background .part {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 17px;
+  width               : 27px;
+  position            : absolute;
+  right               : 0px;
+}
+.dialog .telegramsentmessage$i .time {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 5.1px;
+  position            : absolute;
+  right               : 29.3px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(44, 163, 47, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.03px;
+  line-height         : 13.0px;
+}
+.dialog .telegramsentmessage$i .telegrammessagestatusread {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 6px;
+  height              : 10px;
+  width               : 16px;
+  position            : absolute;
+  right               : 11px;
+  overflow            : hidden;
+}
+.dialog .telegramsentmessage$i .telegrammessagestatusread .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  height              : 10px;
+  width               : 16px;
+  position            : absolute;
+}
+.dialog .telegramsentmessage$i .telegrammessagestatusread .messagestatus {
+  background-color    : rgba(255,255,255,0.0);
+  height              : 9px;
+  width               : 15px;
+  position            : absolute;
+  left                : -1px;
+}
+.dialog .telegramsentmessage$i .telegrammessagestatusread .messagestatus .path3 {
+  background-color    : rgba(255,255,255,0.0);
+  height              : 9px;
+  width               : 12px;
+  position            : absolute;
+}
+.dialog .telegramsentmessage$i .telegrammessagestatusread .messagestatus .path3copy {
+  background-color    : rgba(255,255,255,0.0);
+  height              : 9px;
+  width               : 10px;
+  position            : absolute;
+  left                : 6px;
+}
+.dialog .telegramsentmessage$i .message {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  width               : 260px;
+  position            : absolute;
+  left                : 8px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 17.0px;
+  text-align          : left;
+  letter-spacing      : -0.45px;
+  line-height         : 22.0px;
+}

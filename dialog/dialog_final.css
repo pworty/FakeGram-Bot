@@ -609,6 +609,59 @@ div {
   --message-double-padding    : 11px;
 }
 /**! Messages - This code is auto-generated**/
-$interlocutor_messages
-$user_messages
+.dialog .telegramsentmessage1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(622px - 1 * var(--message-line-height) - 1 * (var(--message-double-padding) + 6px));
+  height              : calc(1 * var(--message-line-height) + var(--message-double-padding));
+  width               : 314px;
+  position            : absolute;
+  left                : 10px;
+}
+.dialog .telegramsentmessage1 .background {
+  background-color    : rgba(255,255,255,0.0);
+  height              : calc(1 * var(--message-line-height) + var(--message-double-padding));
+  width               : 314px;
+  position            : absolute;
+}
+.dialog .telegramsentmessage1 .background .main {
+  background-color    : rgba(255, 255, 255, 1.0);
+  height              : calc(1 * var(--message-line-height) + var(--message-double-padding));
+  box-sizing          : border-box;
+  width               : 309px;
+  position            : absolute;
+  border-radius       : 16px;
+}
+.dialog .telegramsentmessage1 .background .part {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 17px;
+  width               : 27px;
+  position            : absolute;
+  left                : -5px;
+}
+.dialog .telegramsentmessage1 .time {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 194px;
+  position            : absolute;
+  right               : 12.3px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(154, 154, 154, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.03px;
+  line-height         : 13.0px;
+}
+.dialog .telegramsentmessage1 .message {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  width               : 284px;
+  position            : absolute;
+  left                : 8px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 17.0px;
+  text-align          : left;
+  letter-spacing      : -0.45px;
+  line-height         : 22.0px;
+}
+
 /**! End of Messages - This code is auto-generated**/
